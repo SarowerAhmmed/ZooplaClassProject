@@ -94,9 +94,12 @@ public class MasterPageFactory {
 	private WebElement email;
 	@FindBy(xpath = "//*[@id='ap_password']")
 	private WebElement pass;
+	@FindBy(xpath = "(//*[contains(text(),'My Account')])[1]")
+	private List<WebElement> myaccount;
+
+	
 	@FindBy(xpath = "//*[@class='a-popover-wrapper']//li")
 	private List<WebElement> sortingDropOptions;
-
 	// GCR page
 	@FindBy(xpath = "//*[contains(text(),'My Account')]")
 	private List<WebElement> myAccount;
@@ -274,6 +277,10 @@ public class MasterPageFactory {
 
 	public List<WebElement> getGcrLogout() {
 		return gcrLogout;
+	}
+
+	public List<WebElement> getMyaccount() {
+		return myaccount;
 	}
 
 }

@@ -26,7 +26,10 @@ public class Login {
 		driver.get("http://www.gcrit.com/build3/");
 
 		// Click my account
+		//MasterPageFactory obj = new MasterPageFactory();
+		
 		MasterPageFactory pf = PageFactory.initElements(driver, MasterPageFactory.class);
+		
 
 		pf.getMyAccount().get(0).click();
 

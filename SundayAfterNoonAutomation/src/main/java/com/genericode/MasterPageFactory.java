@@ -111,6 +111,10 @@ public class MasterPageFactory {
 	private List<WebElement> gcrSignin;
 	@FindBy(xpath = "//*[contains(text(),'Log Off')]")
 	private List<WebElement> gcrLogout;
+	@FindBy(xpath = "//*[@class='tier-status']")
+	private List<WebElement> signInmyaccount;
+	
+	
 	
 	public List<WebElement> getSignout() {
 		return signout;
@@ -281,6 +285,10 @@ public class MasterPageFactory {
 
 	public List<WebElement> getMyaccount() {
 		return myaccount;
+	}
+
+	public List<WebElement> getSignInmyaccount() {
+		return signInmyaccount;
 	}
 
 }

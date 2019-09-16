@@ -154,7 +154,7 @@
 					<testFailureIgnore>true</testFailureIgnore>
 					<!-- <includes> <include>**/*Runner.java</include> </includes> -->
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>GCRLoginCucumberTestng.xml</suiteXmlFile> -->
+						<suiteXmlFile>RegressionSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 

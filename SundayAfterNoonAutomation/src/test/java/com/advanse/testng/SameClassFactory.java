@@ -9,14 +9,14 @@ public class SameClassFactory {
 	String email;
 	String pass;
 	
-	@Factory(dataProvider = "data-provider")
+	@Factory(dataProvider = "alamin")
     public SameClassFactory(String email,String pass) {
         this.email = email;
         this.pass = pass;
 
     }
  
-	@DataProvider(name = "data-provider")
+	@DataProvider(name = "alamin")
     public static Object[][] dataMethod() {
         return new Object[][] { { "gmail", "student"} ,
         						{ "yahoo", "teache"} ,

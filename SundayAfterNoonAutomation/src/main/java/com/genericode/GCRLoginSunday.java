@@ -25,7 +25,7 @@ public class GCRLoginSunday  {
 	String path = "./TestData/ConfigData.xlsx";
 	String query = "select * from employees";
 
-	@BeforeTest
+	@Test
 	public void setup(ITestContext context) throws Throwable {
 		String client = context.getCurrentXmlTest().getParameter("clientNumber");
 		System.out.println("Test started for Client ::" + client);
@@ -37,8 +37,6 @@ public class GCRLoginSunday  {
 		
 
 		//driver.get(getConfigProperty("URL"));
-				
-				;
 		driver.get(ExcelColumn.columnValue(path, 1).get(0));
 		// DatabaseList.getDataTableColumn(query, "first_name");
 	}

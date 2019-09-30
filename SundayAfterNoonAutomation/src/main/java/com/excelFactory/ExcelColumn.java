@@ -38,8 +38,14 @@ public class ExcelColumn {
 	}
 	
 	public static void main(String[] args) throws Throwable {
+		String path="./TestData/ConfigData.xlsx";
+		int     a   =  10;
+		ExcelColumn.columnValue(path, 1);
 		
-		//ExcelColumn.columnValue("./TestData/ConfigData.xlsx", 1);
+		
+		
+		
+		
 		System.out.println(ExcelColumn.columnValue("./TestData/ConfigData.xlsx", 1).get(0));
 	}
 

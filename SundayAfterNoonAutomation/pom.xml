@@ -169,7 +169,7 @@
             <include>**/*Runner.java</include>
           </includes> -->
            <suiteXmlFiles>
-            <suiteXmlFile>GCRLoginCucumberTestng.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
         

@@ -37,7 +37,7 @@ public class GCRLoginSunday  {
 		
 
 		//driver.get(getConfigProperty("URL"));
-		driver.get(ExcelColumn.columnValue(path, 1).get(0));
+		driver.get("");
 		// DatabaseList.getDataTableColumn(query, "first_name");
 	}
 

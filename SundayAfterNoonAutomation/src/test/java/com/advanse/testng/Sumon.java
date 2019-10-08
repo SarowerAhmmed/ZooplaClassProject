@@ -4,7 +4,11 @@ public  class Sumon implements A{
 
 	@Override
 	public void login() {
-		// TODO Auto-generated method stub
+		
+		String name = "sarower";
+		if(name.equals("sarower")) {
+			System.out.println("pass");
+		}
 		
 	}
 

@@ -11,9 +11,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 			snippets=SnippetType.CAMELCASE,
 			
-	       features = "src/main/resources/GCRLogin.feature",
+	       features = "src/main/resources/GCRLoginOutLine.feature",
 	        glue={"com.stepdef"},// stepdef code location package name
-	        	tags= {"@Regression"},
+	        	//tags= {"@Regression"},
 					monochrome=true
 				,strict=true
 					,dryRun=false
@@ -21,6 +21,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 	 
 	public class TestNgRunner  extends AbstractTestNGCucumberTests { 
+		
+		
 		
 	}
 

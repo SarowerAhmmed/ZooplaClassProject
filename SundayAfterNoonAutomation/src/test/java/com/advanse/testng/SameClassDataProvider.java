@@ -10,7 +10,7 @@ public class SameClassDataProvider {
 			"sarower@gmail.com" , "student1234" },
 			{ "ahmmed@gmail.com" , "smarttech" } };
 	}
-
+	
 	@Test(dataProvider = "alamin")
 	public void testMethod(String email,String pass) {
 		System.out.println("Data is: " + email);

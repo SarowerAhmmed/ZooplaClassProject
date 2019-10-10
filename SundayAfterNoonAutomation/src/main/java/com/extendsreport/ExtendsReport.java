@@ -28,7 +28,8 @@ public class ExtendsReport {
 	public void beforesuit() {
 		a=10;
 		htmlreporter = new ExtentHtmlReporter(new File(System.getProperty("user.dir") + "./target/ExtendsTestNGReport.html"));
-		htmlreporter.loadXMLConfig(new File(System.getProperty("user.dir") + "./extent-config.xml"),true);
+		//htmlreporter.loadXMLConfig(new File(System.getProperty("user.dir") + "./extent-config.xml"),true);
+		htmlreporter.loadXMLConfig(new File(System.getProperty("user.dir") + "./CucumberExtentReport.xml"),true);
 
 		extent = new ExtentReports();
 		extent.setSystemInfo("Testing environment ", "QA");
